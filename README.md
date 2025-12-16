@@ -1,5 +1,13 @@
 # My Vim Config
 
-My Vim configuration for convenience.
+VIM and Neo VIM configuration for convenience.
+```
+cp -.vimrc ~/
+cp -r .config ~/
+```
 
-Currently just a slightly modified version of [vim-dark-meadow](https://github.com/cliuj/vim-dark-meadow).
+## Install Plugins
+```
+nvim .config/nvim/lua/plugins/init.lua
+```
+
